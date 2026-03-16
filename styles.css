@@ -216,6 +216,14 @@ img {
   animation: fadeUp 0.5s ease forwards 0.5s;
 }
 
+.hero-location {
+  font-family: var(--font-mono);
+  font-size: 1rem;
+  color: var(--accent);
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
 .hero-description {
   max-width: 540px;
   font-size: 1.1rem;
