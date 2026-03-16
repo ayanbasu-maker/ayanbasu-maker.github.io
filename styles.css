@@ -219,9 +219,9 @@ img {
 .hero-location {
   font-family: var(--font-mono);
   font-size: 1rem;
-  color: var(--accent);
+  color: var(--text-dim);
   margin-top: 1rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 2rem;
 }
 
 .hero-description {
