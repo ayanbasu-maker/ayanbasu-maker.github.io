@@ -666,6 +666,54 @@ img {
   margin-bottom: 40px;
 }
 
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 14px 18px;
+  background-color: var(--bg-light);
+  border: 1px solid var(--bg-lighter);
+  border-radius: 4px;
+  color: var(--text);
+  font-family: var(--font-sans);
+  font-size: 0.95rem;
+  transition: var(--transition);
+  outline: none;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: var(--accent);
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: var(--text-dim);
+  opacity: 0.6;
+}
+
+.contact-form textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.contact-form .btn {
+  align-self: center;
+  cursor: pointer;
+  background: none;
+  opacity: 1;
+  transform: none;
+  animation: none;
+}
+
 /* ===================== */
 /*       Footer          */
 /* ===================== */

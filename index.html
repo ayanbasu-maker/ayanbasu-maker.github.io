@@ -387,7 +387,15 @@
       I'm always open to connecting with fellow product leaders, exploring new opportunities,
       or just talking shop about AI, SaaS, and building great teams. Drop me a line.
     </p>
-    <a href="mailto:ayan.basu@gmail.com" class="btn btn-large">Say Hello</a>
+    <form action="https://formsubmit.co/ayan.basu@gmail.com" method="POST" class="contact-form">
+      <input type="hidden" name="_subject" value="New message from ayanbasu.com">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_next" value="https://ayanbasu.com#contact">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit" class="btn btn-large">Say Hello</button>
+    </form>
   </section>
 
   <!-- Footer -->
