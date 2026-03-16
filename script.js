@@ -41,7 +41,7 @@ mobileMenu.querySelectorAll('a').forEach(link => {
 // Scroll reveal animations
 // ========================
 const revealElements = document.querySelectorAll(
-  '.section-heading, .about-text, .about-photo, .timeline-item, .project-card, .community-col, .section-contact .contact-heading, .section-contact .contact-text, .section-contact .btn'
+  '.section-heading, .about-text, .about-photo, .timeline-item, .featured-card, .project-card, .community-col, .section-contact .contact-heading, .section-contact .contact-text, .section-contact .btn'
 );
 
 revealElements.forEach(el => el.classList.add('reveal'));
