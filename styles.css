@@ -2,13 +2,13 @@
 /*   Custom Properties   */
 /* ===================== */
 :root {
-  --bg: #0a192f;
-  --bg-light: #112240;
-  --bg-lighter: #233554;
-  --text: #ccd6f6;
-  --text-dim: #8892b0;
-  --accent: #64ffda;
-  --white: #e6f1ff;
+  --bg: #1a1f2e;
+  --bg-light: #232a3b;
+  --bg-lighter: #2e3a50;
+  --text: #c8d1e0;
+  --text-dim: #8a94a8;
+  --accent: #5b8fb9;
+  --white: #e8ecf2;
   --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   --font-mono: 'JetBrains Mono', 'SF Mono', 'Fira Code', monospace;
   --transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -70,7 +70,7 @@ img {
   align-items: center;
   justify-content: space-between;
   padding: 0 50px;
-  background-color: rgba(10, 25, 47, 0.85);
+  background-color: rgba(26, 31, 46, 0.85);
   backdrop-filter: blur(10px);
   z-index: 100;
   transition: var(--transition);
@@ -92,7 +92,7 @@ img {
 }
 
 .nav-logo:hover {
-  background-color: rgba(100, 255, 218, 0.1);
+  background-color: rgba(91, 143, 185, 0.1);
 }
 
 .nav-links {
@@ -258,7 +258,7 @@ img {
 }
 
 .btn:hover {
-  background-color: rgba(100, 255, 218, 0.1);
+  background-color: rgba(91, 143, 185, 0.1);
 }
 
 .btn-large {
@@ -361,24 +361,25 @@ img {
 .photo-wrapper::after {
   content: '';
   position: absolute;
-  top: 14px;
-  left: 14px;
+  top: 10px;
+  left: 10px;
   width: 100%;
   height: 100%;
   border: 2px solid var(--accent);
-  border-radius: 8px;
+  border-radius: 50%;
   z-index: -1;
   transition: var(--transition);
 }
 
 .photo-wrapper:hover::after {
-  top: 10px;
-  left: 10px;
+  top: 6px;
+  left: 6px;
 }
 
 .photo-img {
   width: 100%;
-  border-radius: 8px;
+  aspect-ratio: 1;
+  border-radius: 50%;
   object-fit: cover;
   transition: var(--transition);
 }
