@@ -323,7 +323,7 @@ img {
 .hook-em {
   font-family: var(--font-mono);
   font-size: 1.1rem;
-  color: var(--accent);
+  color: #BF5700;
   margin-top: 0.5rem;
   margin-bottom: 1.5rem;
 }
