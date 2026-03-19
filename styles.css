@@ -672,15 +672,14 @@ img {
 
 .car-image {
   width: 100%;
-  height: 200px;
   overflow: hidden;
   background-color: var(--bg-lighter);
 }
 
 .car-image img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: auto;
+  object-fit: contain;
   transition: var(--transition);
 }
 
