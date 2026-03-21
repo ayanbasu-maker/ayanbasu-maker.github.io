@@ -651,6 +651,10 @@ img {
   font-size: 1rem;
 }
 
+.startup-content p {
+  margin-bottom: 1.2rem;
+}
+
 .cars-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
