@@ -485,6 +485,85 @@ img {
 /* ===================== */
 /*       Featured        */
 /* ===================== */
+/* Spotlight Card */
+.featured-spotlight {
+  display: block;
+  background: linear-gradient(135deg, var(--bg-light) 0%, var(--bg-lighter) 100%);
+  border: 2px solid var(--accent);
+  border-radius: 12px;
+  padding: 40px 36px;
+  margin-bottom: 24px;
+  text-decoration: none;
+  color: var(--text-dim);
+  transition: var(--transition);
+  cursor: pointer;
+}
+
+.featured-spotlight:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px -15px rgba(37, 99, 235, 0.15);
+  color: var(--text-dim);
+}
+
+.featured-spotlight-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--accent);
+  margin-bottom: 16px;
+  padding: 4px 12px;
+  background: rgba(37, 99, 235, 0.08);
+  border-radius: 20px;
+}
+
+.featured-spotlight-title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--white);
+  margin-bottom: 12px;
+  transition: var(--transition);
+}
+
+.featured-spotlight:hover .featured-spotlight-title {
+  color: var(--accent);
+}
+
+.featured-spotlight-desc {
+  font-size: 1rem;
+  line-height: 1.7;
+  margin-bottom: 20px;
+  max-width: 720px;
+}
+
+.featured-spotlight-stats {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.featured-spotlight-stats span {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--accent);
+  padding: 4px 12px;
+  background: rgba(37, 99, 235, 0.06);
+  border-radius: 6px;
+}
+
+.featured-spotlight .featured-link span {
+  display: inline-block;
+  transition: var(--transition);
+}
+
+.featured-spotlight:hover .featured-link span {
+  transform: translateX(6px);
+}
+
 .featured-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -956,6 +1035,18 @@ img {
   .side-email,
   .side-social {
     display: none;
+  }
+
+  .featured-spotlight {
+    padding: 28px 24px;
+  }
+
+  .featured-spotlight-title {
+    font-size: 1.3rem;
+  }
+
+  .featured-spotlight-stats {
+    gap: 12px;
   }
 
   .featured-grid {
