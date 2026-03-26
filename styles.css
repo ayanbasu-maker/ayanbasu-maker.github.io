@@ -888,6 +888,20 @@ img {
 /* ===================== */
 /*     AI Projects       */
 /* ===================== */
+.ai-project-preview {
+  width: 100%;
+  border-radius: 6px;
+  overflow: hidden;
+  margin-bottom: 16px;
+  border: 1px solid var(--border);
+}
+
+.ai-project-preview img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 .ai-projects-intro {
   max-width: 700px;
   line-height: 1.8;
