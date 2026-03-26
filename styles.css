@@ -894,6 +894,15 @@ img {
   margin-bottom: 40px;
 }
 
+.ai-teaser {
+  max-width: 700px;
+  line-height: 1.8;
+}
+
+.ai-teaser p {
+  margin-bottom: 0;
+}
+
 .ai-projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
